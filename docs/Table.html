@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="../css/style4.css"><!--style for this page-->
+    <link rel="stylesheet" href="../css/all style.css"><!--style for navbar and footer-->
+</head>
+<body>
+  <header>
+    <nav><!--start Navigation bar to link pages-->
+        <ul class="navbar">
+          <div class="logo"><img src="../imgs/br.jfif" alt="log" width="100" height="100"><!--page logo -->
+            <p id="lo">FC_Barcelona</p></div>
+       <li><a href="../index.html">Home</a></li> 
+       <li><a href="About US.html">About US</a></li> 
+       <li><a href="Comment.html">Comment</a></li> 
+       <li><a href="Table.html">Table</a></li>
+       
+    </ul>
+    </nav>
+    <!--end Navigation bar to link pages-->
+  </header>
+    <h2 class="headen">Data Table</h2>
+ <form id="dataForm"><!--form to input the data for the table-->
+   <label for="name">FristName:</label>
+   <input type="text" id="name" required>
+   
+   <label for="name">LastName:</label>
+   <input type="text" id="lastname" required>
+   <label for="age">Age:</label>
+   <input type="number" id="age" required>
+   <label for="email">Email:</label>
+   <input type="email" id="email" required >
+   <label for="name">Country:</label>
+   <input type="text" id="nname" required>
+   <button type="submit"><i>add</i></button><!--submit the data-->
+ </form>
+
+ <table id="dataTable"><!--start table for data entry-->
+<caption class="cap1"><h3>List of users</h3></caption>
+  <thead>
+    <tr>
+      
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">age</th>
+      <th scope="col">Email</th>
+      <th scope="col">Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      
+    </tr> 
+  </tbody>
+</table><!--end table for data entry-->
+<footer id="d1"><!--footer to page information-->
+  <h3> @Abdul-halim Al-Wasabi </h3>
+  <h3 id="fc">@IT2.PM</h3>
+  <h3 id="fc">@FC_Barcelona</h3>
+  </footer>
+
+  <script src="../js/js4.js"></script>    <!--japascript for the page--> 
+</body>
+</html>

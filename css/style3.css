@@ -1,0 +1,125 @@
+body{
+    background-image: url(../imgs/26.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    width: 100%;
+    height: auto;
+  }
+  h1{
+    text-align: center;
+    color: white;
+    margin: 5px;
+  }
+.counter {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: lightgray;
+    
+}
+#data-form{
+    background-color: gray;
+    color: black;
+    font-size: larger;
+    margin: 5px auto;
+}
+form{
+    text-align: center;
+    display: grid;
+    gap: 5px;
+    width: 350px;
+}
+form input{
+    background-color:brown;
+    width: 70%;
+    margin: 0 auto;
+}
+form textarea{
+background-color: brown;
+width: 85%;
+    margin: 0 auto;
+
+}
+form input[type="file"]{
+    width: 60px;
+    margin: 0 auto;
+}
+form button{
+    width: 90px;
+    margin: 0 auto;
+}
+span{
+    color: white;
+}
+
+#data{
+    height: 20%;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+#data #mm h2{
+   text-align: right;
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    margin: 5px ;
+}
+#data #mm h3{
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+.logo{
+    display: inline-block;
+}
+#data #cc h2{
+    text-align: right;
+    display: inline-block;
+    color: white;
+    background-color: gray;
+}
+#data #cc h3{
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+@media (min-width: 400px) and (max-width:700px) {
+    
+    form{
+        width: 250px;
+    }
+    form input{
+        width: 60%;
+    }
+    form textarea{
+        width: 75%;
+        
+        }
+        form input[type="file"]{
+            width: 60px;
+        }
+        form button{
+            width: 80px;
+        }
+  }
+  @media (min-width: 701px) and (max-width: 1400px) {
+  
+    form{
+        width: 300px;
+    }
+    form input{
+        width: 65%;
+    }
+    form textarea{
+        width: 80%;
+        
+        }
+        form input[type="file"]{
+            width: 60px;
+        }
+        form button{
+            width: 85px;
+        }
+  }

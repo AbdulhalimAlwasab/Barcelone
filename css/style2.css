@@ -1,0 +1,191 @@
+body{
+  background-image: url(../imgs/26.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed ;
+  width: 100%;
+  height: auto;
+}
+.loges{  
+    color: rgb(241, 248, 241);
+    display:block;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-style:unset ;
+    font-size: 30px;
+    display: flex;
+  align-items: center;
+  margin: 5px;
+
+}
+
+#aboutUs {
+ margin-left: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  height: auto;
+  font-size: 25px;
+  color: gray;
+
+}
+
+#aboutUs button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#aboutUs form label {
+  display: block;
+  margin-bottom: 10px;
+
+}
+#contactButton{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 20px;
+  cursor: pointer; 
+}
+form {
+  text-align: center;
+    display: grid;
+    gap: 5px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: gray;
+    color: black;
+}
+form input ,textarea {
+  background-color: brown;
+}
+
+#aboutUs form input[type="submit"] {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+#comments {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: blanchedalmond;
+}
+
+
+  #confirmationMessage{
+    margin-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    width: 50%;
+    background-color: blue;
+  }
+  @media (min-width: 400px) and (max-width:700px) {
+    .loges{  
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size: 20px;
+    margin: 2px; 
+  }
+  
+  #aboutUs {
+   margin-left: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  
+  #aboutUs button {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  #aboutUs form label {
+    display: block;
+    margin-bottom: 5px;
+  
+  }
+  #contactButton{
+    border-radius: 40px;
+    padding: 5px 10px;
+  }
+  form {
+      width: 200px;
+  }
+  
+  #aboutUs form input[type="submit"] {
+    border-radius: 40px;
+    padding: 5px 10px;
+  }
+  
+  #comments {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  
+    #confirmationMessage{
+      margin-top: 10px;
+      font-size: 17px;
+    }
+
+  }
+  @media (min-width: 701px) and (max-width: 1400px) {
+    .loges{  
+      padding-left: 25px;
+      padding-top: 25px;
+      font-size: 25px;
+    margin: 3px; 
+  }
+  
+  #aboutUs {
+   margin-left: 10px;
+    padding: 8px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #aboutUs button {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+  
+  #aboutUs form label {
+    display: block;
+    margin-bottom: 8px;
+  
+  }
+  #contactButton{
+    border-radius: 45px;
+    padding: 5px 15px;
+  }
+  form {
+      width: 250px;
+  }
+  
+  #aboutUs form input[type="submit"] {
+    border-radius: 45px;
+    padding: 5px 15px;
+  }
+  
+  #comments {
+    margin-left: 45px;
+    margin-top: 25px;
+  }
+  
+  
+    #confirmationMessage{
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    
+  }

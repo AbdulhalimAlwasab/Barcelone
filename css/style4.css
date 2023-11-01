@@ -1,0 +1,131 @@
+body{
+  background-image: url(../imgs/26.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed ;
+  width: 100%;
+  height: auto;
+}
+.headen{
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(237, 240, 237);
+  }
+  
+  form{
+    text-align: center;
+    display: grid;
+    gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: gray;
+  }
+  form input{
+    background-color: brown;
+    width: 80%;
+    margin: 0 auto;
+  }
+  form button{
+    background-color: red;
+  }
+  #dataForm{
+    text-align: center;
+    color: beige;
+  }
+  
+ 
+  .cap1{
+  text-align: center;
+  margin: 15px;
+  color: rgb(237, 240, 237);
+  }
+  table {
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 20px;
+  }
+  #dataTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    height: 100%;
+  }
+    #dataTable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+  }
+  th, td {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  button{
+    background-color: gray;
+    width: 40px;
+    margin: 0 auto;
+  }
+  button:hover{
+    background-color: red;
+  }
+  @media (min-width: 400px) and (max-width:700px) {
+    .headen{
+      padding: 10px;
+      margin: 10px;
+      }
+      
+      form{
+        width: 200px;
+      }
+        
+      .cap1{
+      margin: 10px;
+      }
+      table {
+        padding: 10px;
+        margin: 10px;
+      }
+        #dataTable th{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 13px;
+      }
+      th, td {
+        border: 2px solid black;
+        padding: 8px;
+      }
+
+  }
+  @media (min-width: 701px) and (max-width: 1400px) {
+    .headen{
+      padding: 15px;
+      margin: 15px;
+      }
+      
+      form{
+        width: 200px;
+      }
+        
+      .cap1{
+      margin: 13px;
+      }
+      table {
+        padding: 15px;
+        margin: 15px;
+      }
+        #dataTable th{
+        padding-top: 11px;
+        padding-bottom: 11px;
+        font-size: 15px;
+      }
+      th, td {
+        border: 2px solid black;
+        padding: 10px;
+      }
+
+    
+  }

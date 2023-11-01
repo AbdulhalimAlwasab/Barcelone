@@ -1,0 +1,126 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+  width: 200px;
+  height: 100px;
+  
+ 
+}
+
+.logo img{
+  width: 90px;
+  height: 90px;
+  border-radius: 0 0 0 30px;
+}
+.logo #lo{
+  font-size: 17px;
+  float: right;
+  color: white
+}
+
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(210, 48, 30);
+    font-family: arial,sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0px 30px 60px 60px;
+    
+}
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar div{ 
+  margin-right: auto;
+  
+}
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    color:white;
+    line-height: 60px;
+    position: relative;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    background-color: rgb(35, 77, 116);
+    color: black;
+ }
+
+a::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 3px;
+    width: 0;
+    background-color: black;
+    bottom: 3px;
+    transition: 0.5s;
+}
+a:hover::before{
+    width: 100%;
+}
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+#d1{
+  padding-top: 20PX;
+}
+#fc{
+  margin-top: 10px;
+}
+
+@media (min-width: 0px) and (max-width:700px) {
+  .navbar{
+    flex-wrap: wrap;
+  }
+  .logo{
+    width: 180px;
+    height: 80px;
+  }
+  .logo img{
+    width: 70px;
+    height: 70px;
+    }
+    .logo #lo{
+      font-size: 15px;
+     
+    }
+  .navbar a{
+    display: block;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+}
+

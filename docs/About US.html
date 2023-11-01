@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US</title>
+    <link rel="stylesheet" href="../css/style2.css"><!--style for this page-->
+    <link rel="stylesheet" href="../css/all style.css"><!--style for navbar-->
+</head>
+<body>
+    <header>
+        <nav><!--start Navigation bar to link pages-->
+            <ul class="navbar">
+              <div class="logo"><img src="../imgs/br.jfif" alt="log" width="100" height="100"><!--page logo -->
+                <p id="lo">FC_Barcelona</p></div>
+           <li><a href="../index.html">Home</a></li> 
+           <li><a href="About US.html">About US</a></li> 
+           <li><a href="Comment.html">Comment</a></li> 
+           <li><a href="Table.html">Table</a></li>
+           
+        </ul>
+        </nav><!--end Navigation bar to link pages-->
+        
+      </header>
+      <div class="loges"><!--page logo for description -->
+        <img src="../imgs/br.jfif" alt="Logo" width="100" height="100">
+        <p>FC_Barcelona</p>
+        </div>
+
+    <section id="aboutUs"><!--start section to description the wab -->
+        
+      <h2>About Us</h2>
+      <p>FC Barcelona (in full: Futbol Club Barcelona) is a Spanish football club located in the city of Barcelona in the Catalonia region of Spain.  The club was founded on November 29, 1899 and is one of the oldest and most famous clubs in the world.
+
+        Barcelona is considered one of the successful and prestigious clubs, having achieved many titles and achievements throughout history.  The club is famous for its beautiful and attacking playing style, and has a wide and popular fan base around the world.
+        
+        Barcelona has shined in recent years, winning a large number of championships, including the Spanish League (LaLiga), the Spanish King's Cup (Copa del Rey), the European Champions League (UEFA Champions League), the Club World Cup, and others.
+        
+        Barcelona competes in official matches in its distinctive Catalan club uniform, which consists of a red and blue vertically striped shirt, as well as blue shorts and red socks.  It plays its internal matches at the famous Camp Nou stadium, which is considered the team’s stronghold and one of the largest stadiums in the world.
+        
+        Barcelona is considered one of the leading clubs in world football and includes a large number of talented and famous players. Throughout history, a number of stars have been present in its ranks such as Lionel Messi, Javier Mascherano, Ronaldinho, Carles Puyol and others.
+      </p>
+
+
+        <button id="contactButton" onclick="toggleForm()">Contact Us</button><!--japascript to make the user enter his data to contact us-->
+      
+        <form id="contactForm" style="display: none;" onsubmit="submitForm(event)">
+          <label for="first name">First Name:</label>
+          <input type="text" id="first name" required>
+
+          <label for="secend name">Secend Name:</label>
+          <input type="text" id="secend name" required>
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" required>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" required>
+
+          <label for="country">Country:</label>
+          <input type="text" id="country" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message"  required></textarea>
+      
+          <input type="submit" value="Clilk My"><!--submit the data-->
+        </form>
+      
+        <p id="confirmationMessage" style="display: none;">Thanks for the communication!</p><!--display a message to the user-->
+      </section><!--end section to description the wab -->
+
+
+      
+    
+      <footer id="d1"><!--footer to page information-->
+        <h3> @Abdul-halim Al-Wasabi </h3>
+        <h3 id="fc">@IT2.PM</h3>
+        <h3 id="fc">@FC_Barcelona</h3>
+        </footer>
+      <script src="../js/js2.js"></script><!--japascript for the page-->
+</body>
+</html>
